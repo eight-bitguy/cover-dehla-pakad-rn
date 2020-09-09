@@ -7,11 +7,11 @@ const App = () => {
     <>
       {/* <StatusBar barStyle="dark-content" />
       <SafeAreaView style={styles.container}> */}
-        <WebView
-          source={{
-            uri: 'http://dp.eightbitguy.in',
-          }}
-        />
+      <WebView
+        source={{
+          uri: 'http://dp.eightbitguy.in',
+        }}
+      />
       {/* </SafeAreaView> */}
     </>
   );
